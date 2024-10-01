@@ -22,3 +22,7 @@ variable "ttl" {
   description = "The TTL value for the DNS records"
   default     = 1200
 }
+# domain name 
+variable "domain_name" {
+type = string
+}
